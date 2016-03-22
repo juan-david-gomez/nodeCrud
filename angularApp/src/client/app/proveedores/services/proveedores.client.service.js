@@ -19,7 +19,7 @@
             }
         };
 
-        var API_URL = API_BASE_URL + '/proveedore/:proveedoreId';
+        var API_URL = API_BASE_URL + '/proveedores/:proveedoreId';
 
         return $resource(API_URL, params, actions);
 
